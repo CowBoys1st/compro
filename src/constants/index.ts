@@ -18,28 +18,28 @@ export const NAV_LINKS = [
   // FEATURES SECTION
   export const FEATURES = [
     {
-      title: 'Real maps can be offline',
+      title: 'Keamanan Siber',
       icon: '/map.svg',
       variant: 'green',
       description:
-        'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+        'Lindungi bisnis Anda dari ancaman digital dengan solusi keamanan kami yang canggih.',
     },
     {
-      title: 'Set an adventure schedule',
+      title: 'Pengembangan Perangkat Lunak Kustom',
       icon: '/calendar.svg',
       variant: 'green',
       description:
-        "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+        "Solusi perangkat lunak yang dirancang khusus untuk memenuhi kebutuhan unik Anda.",
     },
     {
-      title: 'Technology using augment reality',
+      title: 'Konsultasi IT',
       icon: '/tech.svg',
       variant: 'green',
       description:
-        'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+        'Dapatkan wawasan berharga dari para ahli kami untuk meningkatkan efisiensi dan produktivitas.',
     },
     {
-      title: 'Many new locations every month',
+      title: 'Data Science',
       icon: '/location.svg',
       variant: 'orange',
       description:
