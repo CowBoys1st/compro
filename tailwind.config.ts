@@ -36,6 +36,7 @@ const config: Config = {
         'feature-bg': "url('/feature-bg.png')",
         pattern: "url('/pattern.png')",
         'pattern-2': "url('/pattern-bg.jpg')",
+        'about-us': "url('/about-us.jpg')",
       },
       screens: {
         xs: '400px',
