@@ -5,14 +5,14 @@ import Button from "./Button"
 
 const Navbar = () => {
   return (
-    <nav className="bg-green-500 flexBetween max-container padding-container relative z-30 py-2">
+    <nav className="bg-gray-500 flexBetween max-container padding-container relative z-30 py-2">
         <Link href={"/"}>
             <Image src="/CowboysLogo.png" alt="logo" width={45} height={29} />
         </Link>
         
         <ul className="hidden h-ful gap-12 lg:flex">
           {NAV_LINKS.map((link) => (
-            <Link href={link.href} key={link.key} className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold">
+            <Link href={link.href} key={link.key} className="regular-16 text-gray-10 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold">
               {link.label}
             </Link>
           ))}

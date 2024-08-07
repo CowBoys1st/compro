@@ -39,11 +39,11 @@ export const NAV_LINKS = [
         'Dapatkan wawasan berharga dari para ahli kami untuk meningkatkan efisiensi dan produktivitas.',
     },
     {
-      title: 'Data Science',
+      title: 'Data Warehouse Business Intelligence',
       icon: '/location.svg',
       variant: 'orange',
       description:
-        'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+        'We are capable in the area of Database Services including Backup Recovery, Maintenance, Tuning and Data Warehousing. Another expertise Quadra may bring to your organization is in Business Intelligence area.Business Intelligence technologies are capable of handling large amounts of unstructured data to help identify, develop and otherwise create new strategic business opportunities.',
     },
   ];
   
