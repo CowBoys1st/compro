@@ -1,11 +1,18 @@
+'use client'
 import { NAV_LINKS } from "@/constants"
 import Image from "next/image"
 import Link from "next/link"
 import Button from "./Button"
+import { useState } from "react"
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen);
+  }
   return (
-    <nav className="bg-gray-500 flexBetween max-container padding-container relative z-30 py-2">
+    <nav className="bg-gray-500 flexBetween max-container 2xl:px-10 padding-container relative z-30 py-2">
         <Link href={"/"}>
             <Image src="/CowboysLogo.png" alt="logo" width={45} height={29} />
         </Link>
@@ -26,14 +33,35 @@ const Navbar = () => {
             variant="btn_dark_green"
           />
         </div>
-
         <Image
           src="menu.svg"
           alt="menu"
           width={32}
           height={32}
-          className="inline-block cursor-pointer lg:hidden"
+          className="inline-block cursor-pointer lg:hidden filter-gray"
+          onClick={toggleSidebar}
         />
+
+        
+        <div className={`fixed top-0 right-0 h-full w-64 bg-gray-500 text-white transition-transform transform ${isOpen ? "translate-x-0" : "translate-x-full"} lg:hidden`}>
+          <div className="p-6">
+            <button 
+              className="text-xl font-bold text-white"
+              onClick={toggleSidebar}
+            >
+              &times;
+            </button>
+            <ul className="mt-8 space-y-4">
+              {NAV_LINKS.map((link) => (
+                <Link href={link.href} key={link.key} className="block regular-16 text-gray-10 hover:font-bold">
+                  {link.label}
+                </Link>
+              ))}
+
+            </ul>
+          </div>
+        </div>
+        
     </nav>
   )
 }
