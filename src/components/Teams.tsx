@@ -33,8 +33,8 @@ const Teams: React.FC = () => {
               className='rounded-full mx-auto mb-6'
             />
             <h2 className='bold-20 lg:bold-32 mt-5'>{`${member.name.first} ${member.name.last}`}</h2>
-            <p className='regular-16 mt-5 bg-white/80 text-gray-50 lg:mt-[30px] lg:bg-none'>{member.email}</p>
-            <p className='regular-16 bg-white/80 text-gray-50 lg:mt-[30px] lg:bg-none'>{member.phone}</p>
+            <p className='regular-16 mt-5 bg-white/80 text-gray-90 lg:mt-[30px] lg:bg-none'>{member.email}</p>
+            <p className='regular-16 bg-white/80 text-gray-90 lg:mt-[30px] lg:bg-none'>{member.phone}</p>
           </div>
         ))
 

@@ -31,14 +31,14 @@ const ContactUs = () => {
               ></textarea>
               <button
                 type="submit"
-                className="mt-4 bg-gray-30 text-white py-3 px-6 rounded-lg hover:bg-gray-50"
+                className="mt-4 bg-gray-50 text-white py-3 px-6 rounded-lg hover:bg-gray-30"
               >
                 Send Message
               </button>
             </div>
           </form>
 
-          <div className="flex-1 bg-gray-30 p-6 text-white shadow-lg rounded-3xl flex flex-col justify-between">
+          <div className="flex-1 bg-gray-50 p-6 text-white shadow-lg rounded-3xl flex flex-col justify-between">
             <h3 className="bold-64 sm:bold-40 mb-4 text-center">Get in Touch</h3>
             <p className="regular-24 mb-6 text-center">
               You can reach us by phone, email, or visit our office at the address below.

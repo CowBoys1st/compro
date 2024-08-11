@@ -22,12 +22,12 @@ const TestimonialSite = ({ name, position, testimonial, image }: TestimonialProp
             />
           </div>
           <div className="flex flex-col gap-1">
-            <h4 className="bold-18 text-gray-50">{name}</h4>
-            <p className="regular-14 text-gray-30">{position}</p>
+            <h4 className="bold-18 text-gray-90">{name}</h4>
+            <p className="regular-14 text-gray-90">{position}</p>
           </div>
         </div>
 
-        <p className="regular-14 text-gray-50 mt-6">{testimonial}</p>
+        <p className="regular-14 text-gray-90 mt-6">{testimonial}</p>
       </div>
     </div>
   );

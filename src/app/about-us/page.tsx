@@ -1,6 +1,5 @@
 import Button from "@/components/Button";
 import TeamLeader from "@/components/Chief";
-import Image from "next/image";
 import Link from "next/link";
 
 const About = () => {
