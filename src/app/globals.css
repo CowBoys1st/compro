@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap'); */
 
 @tailwind base;
 @tailwind components;
@@ -10,9 +10,9 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   font-family: Inter;
-}
+} */
 
 @layer utilities {
   .btn_white { 
@@ -158,14 +158,6 @@ body {
 .hide-scrollbar {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-}
-
-.sidebar {
-  @apply fixed top-0 right-0 h-full w-64 bg-gray-500 text-white transition-transform transform translate-x-full lg:hidden;
-}
-
-.sidebar-open {
-  @apply translate-x-0;
 }
 
 .input-field {

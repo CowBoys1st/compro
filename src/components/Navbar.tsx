@@ -34,11 +34,11 @@ const Navbar = () => {
         
         <ul className="hidden h-ful gap-12 lg:flex">
           {NAV_LINKS.map((link) => (
-            <Link href={link.href} key={link.key} className="regular-16 text-gray-10 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold">
+            <Link href={link.href} key={link.key} className="regular-16 text-white flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold">
               {link.label}
             </Link>
           ))}
-          <Link href="#contact-us" key="contact_us" onClick={handleScroll} className="block regular-16 text-gray-10 hover:font-bold">
+          <Link href="#contact-us" key="contact_us" onClick={handleScroll} className="block regular-16 text-white hover:font-bold">
             Contact Us
           </Link>
         </ul>
@@ -71,11 +71,11 @@ const Navbar = () => {
             </button>
             <ul className="mt-8 space-y-4">
               {NAV_LINKS.map((link) => (
-                <Link href={link.href} key={link.key} className="block regular-16 text-gray-10 hover:font-bold">
+                <Link href={link.href} key={link.key} className="block regular-16 text-white hover:font-bold">
                   {link.label}
                 </Link>
               ))}
-              <Link href="#contact-us" key="contact_us" onClick={handleScroll} className="block regular-16 text-gray-10 hover:font-bold">
+              <Link href="#contact-us" key="contact_us" onClick={handleScroll} className="block regular-16 text-white hover:font-bold">
                 Contact Us
               </Link>
             </ul>

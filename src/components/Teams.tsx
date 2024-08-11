@@ -17,7 +17,7 @@ const Teams: React.FC = () => {
     <section className='max-container padding-container py-10 lg:py-20'>
       <div className='relative text-center mb-12'>
         <h2 className="bold-40 lg:bold-64">Our Team</h2>
-        <p className='regular-16 text-gray-30'>Our team consists of experienced and dedicated experts committed to providing the best solutions for our clients.</p>
+        <p className='regular-16 text-gray-90'>Our team consists of experienced and dedicated experts committed to providing the best solutions for our clients.</p>
       </div>
 
       <TeamLeader />
