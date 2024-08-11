@@ -75,7 +75,9 @@ const Navbar = () => {
                   {link.label}
                 </Link>
               ))}
-
+              <Link href="#contact-us" key="contact_us" onClick={handleScroll} className="block regular-16 text-gray-10 hover:font-bold">
+                Contact Us
+              </Link>
             </ul>
           </div>
         </div>
