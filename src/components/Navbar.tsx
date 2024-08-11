@@ -3,7 +3,22 @@ import { NAV_LINKS } from "@/constants"
 import Image from "next/image"
 import Link from "next/link"
 import Button from "./Button"
-import { useState } from "react"
+import { MouseEvent, useState } from "react"
+
+const handleScroll = (e: MouseEvent<HTMLAnchorElement>) => {
+  e.preventDefault();
+  const href = e.currentTarget.getAttribute("href");
+
+  if (href) {
+    const targetId = href.substring(1);
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      targetElement.scrollIntoView({behavior: "smooth"})
+    }
+  }
+};
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,6 +38,9 @@ const Navbar = () => {
               {link.label}
             </Link>
           ))}
+          <Link href="#contact-us" key="contact_us" onClick={handleScroll} className="block regular-16 text-gray-10 hover:font-bold">
+            Contact Us
+          </Link>
         </ul>
 
         <div className="lg:flexCenter hidden">
@@ -30,7 +48,7 @@ const Navbar = () => {
             type="button"
             title="Login"
             icon="/user.svg"
-            variant="btn_dark_green"
+            variant="btn_dark_gray"
           />
         </div>
         <Image

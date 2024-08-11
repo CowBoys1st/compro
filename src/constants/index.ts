@@ -3,8 +3,6 @@ export const NAV_LINKS = [
     { href: '/', key: 'home', label: 'Home' },
     { href: '/about-us', key: 'about_us', label: 'About Us' },
     { href: '/services', key: 'services', label: 'Services' },
-    { href: '/', key: 'pricing ', label: 'Pricing ' },
-    { href: '/', key: 'contact_us', label: 'Contact Us' },
   ];
   
   // CAMP SECTION
@@ -18,32 +16,32 @@ export const NAV_LINKS = [
   // FEATURES SECTION
   export const FEATURES = [
     {
-      title: 'Keamanan Siber',
-      icon: '/map.svg',
+      title: 'Custom Software Development Services',
+
       variant: 'green',
       description:
-        'Lindungi bisnis Anda dari ancaman digital dengan solusi keamanan kami yang canggih.',
+        'We deliver innovative software solutions across all stages of the application life cycle, specializing in Java, PHP, .NET, and mobile development.',
     },
     {
-      title: 'Pengembangan Perangkat Lunak Kustom',
-      icon: '/calendar.svg',
+      title: 'Middleware / Integration Services',
+
       variant: 'green',
       description:
-        "Solusi perangkat lunak yang dirancang khusus untuk memenuhi kebutuhan unik Anda.",
+        "We provide rapid deployment and integration services to streamline complex systems and enhance process flows.",
     },
     {
-      title: 'Konsultasi IT',
-      icon: '/tech.svg',
+      title: 'Managed Services',
+  
       variant: 'green',
       description:
-        'Dapatkan wawasan berharga dari para ahli kami untuk meningkatkan efisiensi dan produktivitas.',
+        'We offer strategic IT management to help you focus on core business operations, providing essential services as needed.',
     },
     {
-      title: 'Data Warehouse Business Intelligence',
-      icon: '/location.svg',
+      title: 'Data Warehouse and Business Intelligence',
+
       variant: 'orange',
       description:
-        'We are capable in the area of Database Services including Backup Recovery, Maintenance, Tuning and Data Warehousing. Another expertise Quadra may bring to your organization is in Business Intelligence area.Business Intelligence technologies are capable of handling large amounts of unstructured data to help identify, develop and otherwise create new strategic business opportunities.',
+        'We offer database services and Business Intelligence solutions to support data-driven business decisions.',
     },
   ];
   
@@ -52,7 +50,7 @@ export const NAV_LINKS = [
     {
       title: 'Learn More',
       links: [
-        'About Hilink',
+        'About CowBoys',
         'Press Releases',
         'Environment',
         'Jobs',
@@ -62,15 +60,15 @@ export const NAV_LINKS = [
     },
     {
       title: 'Our Community',
-      links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+      links: ['Purwadhika', 'GitHub', 'Vercel'],
     },
   ];
   
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-      { label: 'Admin Officer', value: '123-456-7890' },
-      { label: 'Email Officer', value: 'hilink@akinthil.com' },
+      { label: 'Admin Officer', value: '0858 4007 9641' },
+      { label: 'Email Officer', value: 'cowboysit@solution@gmail.com' },
     ],
   };
   
@@ -81,6 +79,5 @@ export const NAV_LINKS = [
       '/instagram.svg',
       '/twitter.svg',
       '/youtube.svg',
-      '/wordpress.svg',
     ],
   };
